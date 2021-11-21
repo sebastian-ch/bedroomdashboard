@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/sebastian-ch.github.io/bedroomdashboard/static/css/main.5a793699.chunk.css",
-    "main.js": "/sebastian-ch.github.io/bedroomdashboard/static/js/main.413f93a3.chunk.js",
-    "main.js.map": "/sebastian-ch.github.io/bedroomdashboard/static/js/main.413f93a3.chunk.js.map",
-    "runtime-main.js": "/sebastian-ch.github.io/bedroomdashboard/static/js/runtime-main.b9d18417.js",
-    "runtime-main.js.map": "/sebastian-ch.github.io/bedroomdashboard/static/js/runtime-main.b9d18417.js.map",
-    "static/js/2.49414bc8.chunk.js": "/sebastian-ch.github.io/bedroomdashboard/static/js/2.49414bc8.chunk.js",
-    "static/js/2.49414bc8.chunk.js.map": "/sebastian-ch.github.io/bedroomdashboard/static/js/2.49414bc8.chunk.js.map",
-    "static/js/3.f1e6ceb9.chunk.js": "/sebastian-ch.github.io/bedroomdashboard/static/js/3.f1e6ceb9.chunk.js",
-    "static/js/3.f1e6ceb9.chunk.js.map": "/sebastian-ch.github.io/bedroomdashboard/static/js/3.f1e6ceb9.chunk.js.map",
-    "index.html": "/sebastian-ch.github.io/bedroomdashboard/index.html",
-    "static/css/main.5a793699.chunk.css.map": "/sebastian-ch.github.io/bedroomdashboard/static/css/main.5a793699.chunk.css.map",
-    "static/js/2.49414bc8.chunk.js.LICENSE.txt": "/sebastian-ch.github.io/bedroomdashboard/static/js/2.49414bc8.chunk.js.LICENSE.txt"
+    "main.css": "/bedroomdashboard/static/css/main.5a793699.chunk.css",
+    "main.js": "/bedroomdashboard/static/js/main.413f93a3.chunk.js",
+    "main.js.map": "/bedroomdashboard/static/js/main.413f93a3.chunk.js.map",
+    "runtime-main.js": "/bedroomdashboard/static/js/runtime-main.c669224a.js",
+    "runtime-main.js.map": "/bedroomdashboard/static/js/runtime-main.c669224a.js.map",
+    "static/js/2.49414bc8.chunk.js": "/bedroomdashboard/static/js/2.49414bc8.chunk.js",
+    "static/js/2.49414bc8.chunk.js.map": "/bedroomdashboard/static/js/2.49414bc8.chunk.js.map",
+    "static/js/3.f1e6ceb9.chunk.js": "/bedroomdashboard/static/js/3.f1e6ceb9.chunk.js",
+    "static/js/3.f1e6ceb9.chunk.js.map": "/bedroomdashboard/static/js/3.f1e6ceb9.chunk.js.map",
+    "index.html": "/bedroomdashboard/index.html",
+    "static/css/main.5a793699.chunk.css.map": "/bedroomdashboard/static/css/main.5a793699.chunk.css.map",
+    "static/js/2.49414bc8.chunk.js.LICENSE.txt": "/bedroomdashboard/static/js/2.49414bc8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9d18417.js",
+    "static/js/runtime-main.c669224a.js",
     "static/js/2.49414bc8.chunk.js",
     "static/css/main.5a793699.chunk.css",
     "static/js/main.413f93a3.chunk.js"
