@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #030201;
+  color: #dcdcdc;
+}
+
+.time {
+  font-size: 30px;
+}
+.sunrise {
+  font-size: 20px;
+}
+
+
+
+
