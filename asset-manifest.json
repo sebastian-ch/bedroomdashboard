@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bedroomdashboard/static/css/main.432d8a39.chunk.css",
+    "main.css": "/bedroomdashboard/static/css/main.eda0309b.chunk.css",
     "main.js": "/bedroomdashboard/static/js/main.e1b02aac.chunk.js",
     "main.js.map": "/bedroomdashboard/static/js/main.e1b02aac.chunk.js.map",
     "runtime-main.js": "/bedroomdashboard/static/js/runtime-main.c669224a.js",
@@ -10,13 +10,13 @@
     "static/js/3.f1e6ceb9.chunk.js": "/bedroomdashboard/static/js/3.f1e6ceb9.chunk.js",
     "static/js/3.f1e6ceb9.chunk.js.map": "/bedroomdashboard/static/js/3.f1e6ceb9.chunk.js.map",
     "index.html": "/bedroomdashboard/index.html",
-    "static/css/main.432d8a39.chunk.css.map": "/bedroomdashboard/static/css/main.432d8a39.chunk.css.map",
+    "static/css/main.eda0309b.chunk.css.map": "/bedroomdashboard/static/css/main.eda0309b.chunk.css.map",
     "static/js/2.49414bc8.chunk.js.LICENSE.txt": "/bedroomdashboard/static/js/2.49414bc8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c669224a.js",
     "static/js/2.49414bc8.chunk.js",
-    "static/css/main.432d8a39.chunk.css",
+    "static/css/main.eda0309b.chunk.css",
     "static/js/main.e1b02aac.chunk.js"
   ]
 }
