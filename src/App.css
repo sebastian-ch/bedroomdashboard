@@ -2,15 +2,18 @@ html {
   box-sizing: border-box;
   text-align: center;
   background-color: #030201;
-  color: #dcdcdc;
+  color: #ababab;
+  /*opacity: 80%; */
 }
 
 .time {
+  font-size: 60px;
+}
+.sunrise, .greet, .date {
   font-size: 30px;
 }
-.sunrise {
-  font-size: 20px;
-}
+
+
 
 
 

@@ -27,6 +27,17 @@ function Sunrise() {
         return tDate;
     }
 
+    function Greeting(){
+        console.log(todayHour);
+        if(todayHour < 12) {
+            return <div className='greet' >Good Morning, Sebastian</div>
+        } else if(13 <= todayHour && todayHour <= 18) {
+            return <div className='greet'>Good Day, Sebastian</div>
+        } else if (18 < todayHour) {
+            return <div className='greet'>Good Evening, Sebastian</div>
+        }
+    }
+
 
     useEffect(() => {
 
@@ -41,13 +52,20 @@ function Sunrise() {
                 //setSunrise(data.results.sunrise);
             })
 
+        setInterval(() => {
+            Greeting()
+        },3600000)
+
 
     }, [])
 
 
 
     return (
-        <div className='sunrise'>Sunrise: {sunrise} AM</div>
+        <div>
+            <Greeting />
+            <div className='sunrise'>Sunrise: {sunrise} AM</div>
+        </div>
     )
 }
 
