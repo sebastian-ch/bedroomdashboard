@@ -8,9 +8,16 @@ html {
 
 .time {
   font-size: 60px;
+ 
 }
 .sunrise, .greet, .date {
   font-size: 30px;
+}
+.wiki {
+  margin-top: 10px;
+}
+.wiki-title {
+  font-size: 20px;
 }
 
 
