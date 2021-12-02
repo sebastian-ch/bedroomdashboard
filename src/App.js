@@ -8,7 +8,10 @@ function App() {
     <div className="App">
      <Time />
      <Sunrise />
+     <div className='rows'>
      <Wiki />
+     <div>Right Side</div>
+     </div>
     </div>
   );
 }

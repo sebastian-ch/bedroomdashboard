@@ -4,6 +4,7 @@ import {useState, useEffect} from 'react'
 function Sunrise() {
 
     const [sunrise, setSunrise] = useState([])
+    const [greeting, setGreeting] = useState([])
 
     const latlng = [34.17, -118.61];
 
@@ -30,11 +31,11 @@ function Sunrise() {
     function Greeting(){
         console.log(todayHour);
         if(todayHour < 12) {
-            return <div className='greet' >Good Morning, Sebastian</div>
+            setGreeting('Good Morning')
         } else if(13 <= todayHour && todayHour <= 18) {
-            return <div className='greet'>Good Day, Sebastian</div>
+            setGreeting('Good Afternoon')
         } else if (18 < todayHour) {
-            return <div className='greet'>Good Evening, Sebastian</div>
+            setGreeting('Good Evening')
         }
     }
 
@@ -51,8 +52,10 @@ function Sunrise() {
                 setSunrise(locDate.getHours() + ":" + locDate.getMinutes())
                 //setSunrise(data.results.sunrise);
             })
-
+        Greeting()
         setInterval(() => {
+
+            console.log('hour: ' + todayHour)
             Greeting()
         },3600000)
 
@@ -63,7 +66,7 @@ function Sunrise() {
 
     return (
         <div>
-            <Greeting />
+            <div className='greet' >{greeting}, Sebastian</div>
             <div className='sunrise'>Sunrise: {sunrise} AM</div>
         </div>
     )
