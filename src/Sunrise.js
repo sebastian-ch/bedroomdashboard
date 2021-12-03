@@ -20,6 +20,7 @@ function Sunrise() {
     }
 
     console.log(fetchDate)
+    console.log(todayHour)
     function structureDate(x) {
         var dd = String(x.getDate()).padStart(2, '0');
         var mm = String(x.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -28,8 +29,8 @@ function Sunrise() {
         return tDate;
     }
 
-    function Greeting(){
-        console.log(todayHour);
+    function Greeting() {
+        todayHour = today.getHours();
         if(todayHour < 12) {
             setGreeting('Good Morning')
         } else if(13 <= todayHour && todayHour <= 18) {

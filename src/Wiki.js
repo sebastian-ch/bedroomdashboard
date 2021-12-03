@@ -9,7 +9,7 @@ function Wiki() {
         fetch("https://en.wikipedia.org/api/rest_v1/page/random/summary")
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                //console.log(data);
                 setRando(data);
             })
 

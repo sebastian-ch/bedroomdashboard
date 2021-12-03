@@ -10,7 +10,7 @@ function App() {
      <Sunrise />
      <div className='rows'>
      <Wiki />
-     <div>Right Side</div>
+     <div className='right'>Right Side</div>
      </div>
     </div>
   );

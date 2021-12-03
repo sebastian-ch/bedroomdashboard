@@ -10,6 +10,17 @@ html {
   display: grid;
 }
 
+.rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.right {
+  width: 50%;
+  border: 1px solid red;
+}
 .time {
   font-size: 70px;
   margin: 0px;
@@ -21,15 +32,18 @@ html {
   font-size: 30px;
 }
 .wiki {
+  /*width: 45%; */
+  flex-grow: 1;
   margin-top: 15px;
+  border: 1px solid red;
 }
 .wiki-title {
   font-size: 30px;
 }
 .wiki-desc {
   font-size: 25px;
-  width: 50%;
-  margin: 10px auto 10px auto;
+  /* width: 50%;
+  margin: 10px auto 10px auto; */
 }
 
 
