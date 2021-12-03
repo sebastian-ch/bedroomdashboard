@@ -1,0 +1,2 @@
+html{box-sizing:border-box;text-align:center;background-color:#030201;color:#ababab}.App{display:grid}.rows{display:flex;flex-direction:row;justify-content:space-between;align-items:center;width:100%}.right{width:50%;border:1px solid red}.time{font-size:70px}.time,.time h1{margin:0}.date,.greet,.sunrise{font-size:30px}.wiki{flex-grow:1;margin-top:15px;border:1px solid red}.wiki-title{font-size:30px}.wiki-desc{font-size:25px}
+/*# sourceMappingURL=main.8c5c80ab.chunk.css.map */
