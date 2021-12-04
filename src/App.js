@@ -2,6 +2,7 @@ import Time from './Time'
 import './App.css';
 import Sunrise from './Sunrise';
 import Wiki from './Wiki';
+import Marvel from './Marvel';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
      <Sunrise />
      <div className='rows'>
      <Wiki />
-     <div className='right'>Right Side</div>
+     <Marvel />
      </div>
     </div>
   );

@@ -19,7 +19,7 @@ html {
 }
 .right {
   width: 50%;
-  border: 1px solid red;
+  /*border: 1px solid red; */
 }
 .time {
   font-size: 70px;
@@ -35,12 +35,12 @@ html {
   /*width: 45%; */
   flex-grow: 1;
   margin-top: 15px;
-  border: 1px solid red;
+  
 }
 .wiki-title {
   font-size: 30px;
 }
-.wiki-desc {
+.wiki-desc, .marvelTitle {
   font-size: 25px;
   /* width: 50%;
   margin: 10px auto 10px auto; */

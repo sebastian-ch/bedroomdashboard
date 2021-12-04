@@ -30,6 +30,7 @@ function Sunrise() {
     }
 
     function Greeting() {
+        today = new Date();
         todayHour = today.getHours();
         if(todayHour < 12) {
             setGreeting('Good Morning')
