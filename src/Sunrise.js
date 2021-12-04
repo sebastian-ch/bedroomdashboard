@@ -19,8 +19,8 @@ function Sunrise() {
         fetchDate = structureDate(tomorrow)
     }
 
-    console.log(fetchDate)
-    console.log(todayHour)
+    //console.log(fetchDate)
+    //console.log(todayHour)
     function structureDate(x) {
         var dd = String(x.getDate()).padStart(2, '0');
         var mm = String(x.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -29,25 +29,25 @@ function Sunrise() {
         return tDate;
     }
 
-    function Greeting() {
-        today = new Date();
-        todayHour = today.getHours();
-        if(todayHour < 12) {
-            setGreeting('Good Morning')
-        } else if(13 <= todayHour && todayHour <= 18) {
-            setGreeting('Good Afternoon')
-        } else if (18 < todayHour) {
-            setGreeting('Good Evening')
-        }
-    }
-
 
     useEffect(() => {
+
+        function Greeting() {
+            today = new Date();
+            todayHour = today.getHours();
+            if(todayHour < 12) {
+                setGreeting('Good Morning')
+            } else if(13 <= todayHour && todayHour <= 18) {
+                setGreeting('Good Afternoon')
+            } else if (18 < todayHour) {
+                setGreeting('Good Evening')
+            }
+        }
 
         fetch(`https://api.sunrise-sunset.org/json?lat=${latlng[0]}&lng=${latlng[1]}&date=${fetchDate}&formatted=0`)
             .then(results => results.json())
             .then(data => {
-                console.log(data.results.sunrise);
+                //console.log(data.results.sunrise);
                 var utcDate = data.results.sunrise;
                 var locDate = new Date(utcDate) 
                 console.log(locDate.getHours() + ":" + locDate.getMinutes());
@@ -57,7 +57,7 @@ function Sunrise() {
         Greeting()
         setInterval(() => {
 
-            console.log('hour: ' + todayHour)
+            //console.log('hour: ' + todayHour)
             Greeting()
         },3600000)
 

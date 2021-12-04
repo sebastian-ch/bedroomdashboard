@@ -28,7 +28,7 @@ function Wiki() {
     return (
         <div className='wiki'>
             {rando.thumbnail ? <div>
-                <img src={rando.thumbnail.source} width={rando.thumbnail.width} height={rando.thumbnail.height}/>
+                <img alt='wiki thumbnail' src={rando.thumbnail.source} width={rando.thumbnail.width} height={rando.thumbnail.height}/>
                 <div className='wiki-title'><b>{rando.title}</b></div>
                 <div>{rando.description}</div>
                 <div className='wiki-desc'>{rando.extract}</div>

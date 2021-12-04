@@ -32,10 +32,13 @@ html {
   font-size: 30px;
 }
 .wiki {
-  /*width: 45%; */
+  width: 50%;
   flex-grow: 1;
   margin-top: 15px;
   
+}
+.marvel {
+  width: 45%;
 }
 .wiki-title {
   font-size: 30px;

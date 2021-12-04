@@ -12,7 +12,7 @@ function Time() {
     let tDate = mm + '/' + dd + '/' + yyyy;
 
     const [time, setTime] = useState(tTime);
-    const [currentDay, setDay] = useState(tDate);
+    //const [currentDay, setDay] = useState(tDate);
 
 
     useEffect(() => {

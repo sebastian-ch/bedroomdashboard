@@ -11,23 +11,22 @@ function Marvel() {
       }
     
 
-    function getMarvelData() {
-        
-        const starter = String.fromCharCode(97+Math.floor(Math.random() * 26))
-        console.log(starter);
-        fetch(`https://gateway.marvel.com:443/v1/public/comics?titleStartsWith=${starter}&apikey=${pubKey}`)
-            .then(results => results.json())
-            .then(data => {
-                //console.log(data.data.count)
-                let num = getRandomInt(data.data.count)
-                //console.log(data.data.results[num])
-                setMarvelData(data.data.results[num])
-            })
-
-
-    }
-
     useEffect(() => {
+
+        function getMarvelData() {
+        
+            const starter = String.fromCharCode(97+Math.floor(Math.random() * 26))
+            console.log(starter);
+            fetch(`https://gateway.marvel.com:443/v1/public/comics?titleStartsWith=${starter}&apikey=${pubKey}`)
+                .then(results => results.json())
+                .then(data => {
+                    //console.log(data.data.count)
+                    let num = getRandomInt(data.data.count)
+                    //console.log(data.data.results[num])
+                    setMarvelData(data.data.results[num])
+                })
+        }
+
         getMarvelData();
 
         setInterval(() => {
@@ -40,7 +39,7 @@ function Marvel() {
     return (
         <div className='marvel'>
             {marvelData.thumbnail ? <div>
-            <img height='500'src={marvelData.thumbnail.path + '.' + marvelData.thumbnail.extension} />
+            <img alt='marvel comic cover' height='500'src={marvelData.thumbnail.path + '.' + marvelData.thumbnail.extension} />
             <div className='marvelTitle'>{marvelData.title}</div>
             </div> : <div>loading marvel..</div>}
         </div>
